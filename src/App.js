@@ -11,6 +11,11 @@ function App() {
         This simple counter app was built in React using useState and
         eventHandlers to update state and increment/decrement by 1.
       </p>
+      <p className="repo">
+        <a href="https://github.com/akshayparmargg/Counter-App/tree/main">
+          Git Repo
+        </a>
+      </p>
     </section>
   );
 }

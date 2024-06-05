@@ -21,13 +21,13 @@ function Counter() {
   return (
     <div>
       <h1 className="score">{count}</h1>
-      {/* Button to increment the counter */}
-      <button className="button" onClick={increment}>
-        PLUS +
-      </button>
       {/* Button to decrement the counter */}
       <button className="button" onClick={decrement}>
         MINUS -
+      </button>
+      {/* Button to increment the counter */}
+      <button className="button" onClick={increment}>
+        PLUS +
       </button>
     </div>
   );
