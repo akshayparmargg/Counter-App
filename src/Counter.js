@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Counter.css";
 
 function Counter() {
   // Define the counter state variable and its setter function
@@ -19,11 +20,15 @@ function Counter() {
 
   return (
     <div>
-      <h1>Counter: {count}</h1>
+      <h1 className="score">{count}</h1>
       {/* Button to increment the counter */}
-      <button onClick={increment}>Increment</button>
+      <button className="button" onClick={increment}>
+        PLUS +
+      </button>
       {/* Button to decrement the counter */}
-      <button onClick={decrement}>Decrement</button>
+      <button className="button" onClick={decrement}>
+        MINUS -
+      </button>
     </div>
   );
 }

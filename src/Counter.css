@@ -1,0 +1,10 @@
+.score {
+  font-weight: 200;
+  font-size: 50px;
+}
+
+.button {
+  margin: 20px;
+  padding: 10px;
+  font-weight: 300;
+}
